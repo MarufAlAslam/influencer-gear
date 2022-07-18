@@ -20,6 +20,9 @@ a {
 
 .container {
     padding: 0 120px;
+    width: 1500px;
+    margin: auto;
+    max-width: 100%;
 }
 
 
@@ -144,4 +147,92 @@ h1.title {
 
 .j-around {
     justify-content: space-around;
+}
+
+
+/* -------------------------------- */
+/* popular */
+/* -------------------------------- */
+
+.popular {
+    padding: 50px 0;
+}
+
+.popular .container {
+    padding: 0 196px;
+}
+
+.center {
+    text-align: center;
+}
+
+.popular .title {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.items {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.item {
+    box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.1);
+    padding: 14px;
+    border-radius: 5px;
+}
+
+.item img {
+    width: 100%;
+}
+
+.item-title {
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.item-price {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fa-star,
+.fa-star-half-alt {
+    font-size: 12px;
+    color: #FB8200;
+}
+
+.ratings span {
+    color: #5E6366;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.item-about {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 6px;
+    color: #5E6366;
+}
+
+.end {
+    text-align: right;
+    margin-top: 50px;
+}
+
+.end a {
+    color: #E02C6D;
+    font-weight: 700;
+}
+
+.end a i {
+    color: #E02C6D;
+}
+
+a i {
+    margin-left: 5px;
 }
