@@ -118,3 +118,30 @@ h1.title {
 .f-end {
     justify-content: flex-end;
 }
+
+
+
+/* -------------------------------- */
+/* logos */
+/* -------------------------------- */
+
+.logos {
+    padding: 50px 0;
+}
+
+.logos .container {
+    padding: 0 165px;
+}
+
+.logos .line {
+    height: 1px;
+    background: linear-gradient(rgba(192, 204, 218, 0.1), rgb(192, 204, 218, 0.6), rgb(192, 204, 218, 0.6), rgb(192, 204, 218, 0.6), rgb(192, 204, 218, 0.1))
+}
+
+.logos .flex {
+    padding: 40px 0;
+}
+
+.j-around {
+    justify-content: space-around;
+}
