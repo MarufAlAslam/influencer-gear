@@ -236,3 +236,29 @@ h1.title {
 a i {
     margin-left: 5px;
 }
+
+
+/* ---------------------------------------- */
+/* featured */
+/* ---------------------------------------- */
+
+.featured {
+    padding: 50px 0;
+}
+
+.featured .container {
+    padding: 0 165px;
+}
+
+.featured-description {
+    padding-left: 96px;
+}
+
+.featured-description h2 {
+    font-size: 38px !important;
+    font-weight: 700;
+}
+
+.featured-description p {
+    font-weight: 700;
+}
