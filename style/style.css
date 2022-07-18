@@ -1,0 +1,76 @@
+/* --------------------------------- */
+/* universal css */
+/* --------------------------------- */
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+.container {
+    padding: 0 120px;
+}
+
+
+
+/* ------------------------------- */
+/* header */
+/* ------------------------------- */
+
+header {
+    padding-top: 50px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.a-center {
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 17px;
+}
+
+.menu li a {
+    font-weight: 600;
+}
+
+.menu li img {
+    width: 20px;
+}
